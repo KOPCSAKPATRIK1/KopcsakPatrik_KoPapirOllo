@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 if (emberValasztott == gepValasztott)
                 {
                     Toast.makeText(MainActivity.this, "Döntetlen", Toast.LENGTH_SHORT).show();
+                    gepKep.setImageResource(R.drawable.rock);
                 }
                 else if (gepValasztott == 2)
                 {
@@ -80,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (emberValasztott == gepValasztott)
                 {
+                    gepKep.setImageResource(R.drawable.paper);
                     Toast.makeText(MainActivity.this, "Döntetlen", Toast.LENGTH_SHORT).show();
                 }
                 else if (gepValasztott == 1)
@@ -120,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
                 if (emberValasztott == gepValasztott)
                 {
                     Toast.makeText(MainActivity.this, "Döntetlen", Toast.LENGTH_SHORT).show();
+                    gepKep.setImageResource(R.drawable.scissors);
                 }
                 else if (gepValasztott == 2)
                 {
